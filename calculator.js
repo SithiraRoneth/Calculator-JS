@@ -14,8 +14,8 @@ $(document).ready(function(){
             currentEntry = '0';
         }
         else if (btnPressed === '.') {
-            if (currentEntry.indexOf(".") ==-1) {
-                currentEntry +='.'};
+            if (currentEntry.indexOf(".") ===-1) {
+                currentEntry +='.'}
         }
         else if(isNumber(btnPressed)) {
             if (currentEntry === '0')
